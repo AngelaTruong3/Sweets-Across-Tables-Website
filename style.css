@@ -45,10 +45,9 @@ a {
   position: absolute;
   display: flex;
   flex-direction: column;
-  width: 55%;
+  width: 48%;
   height: 170px;
   bottom: 30%;
-  padding-right: 50px;
 }
 
 /* this is for the orange background */
@@ -68,7 +67,8 @@ a {
   font-size: 42px;
   position: absolute;
   transform: translate(50%, -5%)
-  padding: 50px 10px 0px 40px;
+  padding: 70px 10px 0px 40px;
+  text-indent: 20px;
 }
 .mochiangoText {
   color: white;
@@ -80,6 +80,7 @@ a {
   display: flex;
   flex-direction: row-reverse;
   height: 200%;
-  transform: translate(73%, -13%);
+  transform: translate(78%, -10%);
+  size-adjust: 50%;
 }
 
