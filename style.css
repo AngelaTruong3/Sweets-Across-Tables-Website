@@ -18,6 +18,9 @@ a {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .website-name {
   color: #044B11;
