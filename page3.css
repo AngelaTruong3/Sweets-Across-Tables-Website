@@ -1,4 +1,70 @@
-a {
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* This is to get rid of the underlining and the blue color of anchor tags */
+a { 
   color: black;
   text-decoration: none;
+}
+
+/* this is for the nav bar */
+.website-header {
+  color: black;
+  background: #FCE7EC;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* This position, top, and width makes the nav sticky */
+  position: fixed;    
+  top: 0;
+  width: 100%;
+}
+.website-name {
+  color: #044B11;
+  font-size: 35px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* This is for the white, top part of the page */
+.white1 {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: row;
+  padding-left: 90px;
+}
+.white1text {
+  width: 78%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0px 0px 70px;
+}
+.white2text {
+  font-size: 21px;
+  padding-right: 60px;
+}
+
+/* This is for the orange, bottom part of the page */
+
+.orange1 {
+  background-color: #FFB48C;
+  display:flex;
+  flex-direction: column;
+}
+.orange1text {
+  padding-left: 35%;
+  padding-top: 13px;
+}
+.orange2text {
+  font-size: 20px;
+  width: 93%;
+  height: 90%;
+  padding: 10px 30px 5px 60px;
 }

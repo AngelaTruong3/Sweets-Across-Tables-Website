@@ -18,7 +18,8 @@ a {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  position: fixed;
+  /* This position, top, and width makes the nav sticky */
+  position: fixed;    
   top: 0;
   width: 100%;
 }
@@ -31,13 +32,14 @@ a {
 
 /* this is for the ai image */
 .row {  
-  width: 95%;
+  /* width: 95%; */
+  width: 101%;
   height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding-left: 90px;
+  /* padding-left: 90px; */
 }
 
 /* this is to make that black transparent ish box */
@@ -67,10 +69,10 @@ a {
 }
 .mochiangoDescription {
   color: white;
-  font-size: 42px;
+  font-size: 43px;
   position: absolute;
   transform: translate(50%, -5%)
-  padding: 70px 10px 0px 40px;
+  padding: 70px 10px 0px 70px;
   text-indent: 20px;
 }
 .mochiangoText {
@@ -82,8 +84,7 @@ a {
 .mochiango {
   display: flex;
   flex-direction: row-reverse;
-  height: 200%;
-  transform: translate(78%, -10%);
-  size-adjust: 50%;
+  transform: translate(95%, -10%);
+  size-adjust: 60%;
 }
 
