@@ -11,9 +11,10 @@ a {
 
 /* this is for the nav bar */
 .website-header {
+  font-family: Jockey One;
   color: black;
   background: #FCE7EC;
-  font-size: 20px;
+  font-size: 13px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -24,6 +25,7 @@ a {
   width: 100%;
 }
 .website-name {
+  font-family: Jockey One;
   color: #044B11;
   font-size: 35px;
   font-weight: bold;
@@ -33,7 +35,7 @@ a {
 /* this is for the ai image */
 .row {  
   /* width: 95%; */
-  width: 101%;
+  width: 103%;
   height: 100px;
   display: flex;
   flex-direction: row;
@@ -68,6 +70,7 @@ a {
   display: inline-block;
 }
 .mochiangoDescription {
+  font-family: Joan;
   color: white;
   font-size: 43px;
   position: absolute;
@@ -76,15 +79,45 @@ a {
   text-indent: 20px;
 }
 .mochiangoText {
+  font-family: Joan;
   color: white;
   font-size: 24px;
+  width: 90%;
+  height: 60%;
   position: absolute;
   transform: translate(20%, 20%);
 }
 .mochiango {
+  font-family: Joan;
   display: flex;
   flex-direction: row-reverse;
   transform: translate(95%, -10%);
   size-adjust: 60%;
 }
 
+/* This is for the bootstrap */
+.containerMarketing {
+  font-family: Joan;
+  background: white;
+  color: black;
+  width: 98%;
+  height: 300%
+}
+
+/* This is for the website wireframe text and image */
+.websiteWireframe {
+  font-family: Joan;
+  background: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.clicker {
+  font-family: Jockey One;
+  font-weight: 5px;
+  padding-left: 10px;
+}

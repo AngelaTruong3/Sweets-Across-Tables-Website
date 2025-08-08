@@ -1,4 +1,44 @@
-a {
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* This is to get rid of the underlining and the blue color of anchor tags */
+a { 
   color: black;
   text-decoration: none;
 }
+
+/* This is for the nav bar */
+.website-header {
+  font-family: Jockey One;
+  color: black;
+  background: #FCE7EC;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* This position, top, and width makes the nav sticky */
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.website-name {
+  font-family: Jockey One;
+  color: #044B11;
+  font-size: 35px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.row row-cols-1 row-cols-md-3 mb-3 text-center {
+  font-family: Joan;
+}
+
+.recipe-img {
+  height: 180px;
+  object-fit: cover;
+  width: 100%;
+}
+

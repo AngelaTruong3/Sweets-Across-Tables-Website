@@ -11,6 +11,7 @@ a {
 
 /* this is for the nav bar */
 .website-header {
+  font-family: Joan;
   color: black;
   background: #FCE7EC;
   font-size: 20px;
@@ -24,6 +25,7 @@ a {
   width: 100%;
 }
 .website-name {
+  font-family: Joan;
   color: #044B11;
   font-size: 35px;
   font-weight: bold;
@@ -32,6 +34,7 @@ a {
 
 /* This is for the white, top part of the page */
 .white1 {
+  font-family: Joan;
   color: black;
   display: flex;
   flex-direction: row;
@@ -40,6 +43,7 @@ a {
   padding-left: 90px;
 }
 .white1text {
+  font-family: Jockey One;
   width: 78%;
   height: 60%;
   display: flex;
@@ -47,6 +51,7 @@ a {
   padding: 15px 0px 0px 70px;
 }
 .white2text {
+  font-family: Joan;
   font-size: 21px;
   padding-right: 60px;
 }
@@ -54,15 +59,18 @@ a {
 /* This is for the orange, bottom part of the page */
 
 .orange1 {
+  font-family: Joan;
   background-color: #FFB48C;
   display:flex;
   flex-direction: column;
 }
 .orange1text {
+  font-family: Jockey One;
   padding-left: 35%;
   padding-top: 13px;
 }
 .orange2text {
+  font-family: Joan;
   font-size: 20px;
   width: 93%;
   height: 90%;
